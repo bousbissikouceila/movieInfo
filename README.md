@@ -4,6 +4,9 @@
 
 ## Info
 
+### Try it out
+Live [Demo](https://cinema-info.netlify.com/ "link to Demo")
+
 ### Version
 1.0.0
 
