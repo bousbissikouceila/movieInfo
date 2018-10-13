@@ -1,0 +1,46 @@
+#movies img,
+#movie img {
+    width: 100%;
+}
+
+.navbar {
+    margin-bottom: 1rem;
+}
+
+#searchForm {
+    position: relative;
+}
+
+#searchForm i {
+    position: absolute;
+    color: #2A9FD6;
+    top: 5px;
+    right: 5px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+#movies .movie-card {
+    justify-content: space-between;
+}
+
+#movies .card h5 {
+    font-size: 1rem;
+}
+
+@media (min-width: 960px) {
+    #movies .col-md-3 .card {
+        height: 390px;
+    }
+    #movies .col-md-3 img {
+        height: 240px;
+    }
+}
+
+#movies .movie-card {
+    margin-bottom: 1.2rem;
+}
+
+#movie .card {
+    margin-top: 1rem;
+}

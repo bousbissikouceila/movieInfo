@@ -22,22 +22,15 @@
             </div>
         </div>
     </nav>
-
     <div class="container">
-        <div class="jumbotron">
-            <h3 class="text-center">Search For Any Movie</h3>
-            <form id="searchForm">
-                <input type="text" name="search" id="searchText" placeholder="Search Movie, TV show, serie & anime ..." class="form-control"><i class="fas fa-search"></i>
-            </form>
-        </div>
-    </div>
-
-    <div class="container">
-        <div id="movies"></div>
+        <div id="movie" class="card card-body bg-light"></div>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="js/main.js"></script>
+    <script>
+        getMovie();
+    </script>
 </body>
 
 </html>
